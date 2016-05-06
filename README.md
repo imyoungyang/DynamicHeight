@@ -12,6 +12,9 @@ I use a drop-down list to demo the dynamic cell height for iOS. There are some k
 # Important !!!
 
 * preferredLayoutAttributesFittingAttributes, will be called by framework 3 times. I printed out the in the console:
+
+[![https://gyazo.com/b4599279a6cccbee5df01d5bb9d1dc0b](https://i.gyazo.com/b4599279a6cccbee5df01d5bb9d1dc0b.png)](https://gyazo.com/b4599279a6cccbee5df01d5bb9d1dc0b) 
+
     * 1st: The layoutAttributes frame height is current (57.5). The collection view frame height is zero.
     
      ```(lldb) po layoutAttributes 
