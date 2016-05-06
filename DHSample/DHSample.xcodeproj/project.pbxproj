@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CFE29221CDC3272004E8C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29211CDC3272004E8C27 /* main.m */; };
+		6CFE29251CDC3272004E8C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29241CDC3272004E8C27 /* AppDelegate.m */; };
+		6CFE29281CDC3272004E8C27 /* DHSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29271CDC3272004E8C27 /* DHSampleViewController.m */; };
+		6CFE292B1CDC3272004E8C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFE29291CDC3272004E8C27 /* Main.storyboard */; };
+		6CFE292D1CDC3272004E8C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFE292C1CDC3272004E8C27 /* Assets.xcassets */; };
+		6CFE29301CDC3272004E8C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFE292E1CDC3272004E8C27 /* LaunchScreen.storyboard */; };
+		6CFE293B1CDC3272004E8C27 /* DHSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE293A1CDC3272004E8C27 /* DHSampleTests.m */; };
+		6CFE294D1CDC4289004E8C27 /* MSHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE294B1CDC4289004E8C27 /* MSHeaderView.m */; };
+		6CFE29501CDC429F004E8C27 /* MSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE294E1CDC429F004E8C27 /* MSBaseViewController.m */; };
+		6CFE29551CDC42D1004E8C27 /* MSMovieBookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29531CDC42D1004E8C27 /* MSMovieBookingViewController.m */; };
+		6CFE29621CDC42DC004E8C27 /* MSDropDownItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */; };
+		6CFE29631CDC42DC004E8C27 /* MSDropDownViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */; };
+		6CFE29641CDC42DC004E8C27 /* MSMovieDateDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDown.m */; };
+		6CFE29651CDC42DC004E8C27 /* MSMovieDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295D1CDC42DC004E8C27 /* MSMovieDropDown.m */; };
+		6CFE29661CDC42DC004E8C27 /* MSSessionDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295F1CDC42DC004E8C27 /* MSSessionDropDown.m */; };
+		6CFE29671CDC42DC004E8C27 /* MSTheaterDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29611CDC42DC004E8C27 /* MSTheaterDropDown.m */; };
+		6CFE296A1CDC4338004E8C27 /* MSMovieScheduleTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */; };
+		6CFE296E1CDC442A004E8C27 /* UIColor+MSFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE296D1CDC442A004E8C27 /* UIColor+MSFormatter.m */; };
+		6CFE29711CDC449D004E8C27 /* UIColor+YDKHexPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29701CDC449D004E8C27 /* UIColor+YDKHexPresentation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CFE29371CDC3272004E8C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CFE29151CDC3272004E8C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CFE291C1CDC3272004E8C27;
+			remoteInfo = DHSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CFE291D1CDC3272004E8C27 /* DHSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFE29211CDC3272004E8C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CFE29231CDC3272004E8C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CFE29241CDC3272004E8C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CFE29261CDC3272004E8C27 /* DHSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHSampleViewController.h; sourceTree = "<group>"; };
+		6CFE29271CDC3272004E8C27 /* DHSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSampleViewController.m; sourceTree = "<group>"; };
+		6CFE292A1CDC3272004E8C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CFE292C1CDC3272004E8C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CFE292F1CDC3272004E8C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CFE29311CDC3272004E8C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CFE29361CDC3272004E8C27 /* DHSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFE293A1CDC3272004E8C27 /* DHSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSampleTests.m; sourceTree = "<group>"; };
+		6CFE293C1CDC3272004E8C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CFE294B1CDC4289004E8C27 /* MSHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSHeaderView.m; path = DHSample/Views/MSHeaderView.m; sourceTree = "<group>"; };
+		6CFE294C1CDC4289004E8C27 /* MSHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSHeaderView.h; path = DHSample/Views/MSHeaderView.h; sourceTree = "<group>"; };
+		6CFE294E1CDC429F004E8C27 /* MSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSBaseViewController.m; path = DHSample/ViewControllers/MSBaseViewController.m; sourceTree = "<group>"; };
+		6CFE294F1CDC429F004E8C27 /* MSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSBaseViewController.h; path = DHSample/ViewControllers/MSBaseViewController.h; sourceTree = "<group>"; };
+		6CFE29531CDC42D1004E8C27 /* MSMovieBookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieBookingViewController.m; path = DHSample/ViewControllers/MovieBookingViewController/MSMovieBookingViewController.m; sourceTree = "<group>"; };
+		6CFE29541CDC42D1004E8C27 /* MSMovieBookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieBookingViewController.h; path = DHSample/ViewControllers/MovieBookingViewController/MSMovieBookingViewController.h; sourceTree = "<group>"; };
+		6CFE29561CDC42DC004E8C27 /* MSDropDownItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSDropDownItemCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownItemCell.h; sourceTree = "<group>"; };
+		6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSDropDownItemCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownItemCell.m; sourceTree = "<group>"; };
+		6CFE29581CDC42DC004E8C27 /* MSDropDownViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSDropDownViewCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownViewCell.h; sourceTree = "<group>"; };
+		6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSDropDownViewCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownViewCell.m; sourceTree = "<group>"; };
+		6CFE295A1CDC42DC004E8C27 /* MSMovieDateDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieDateDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDateDropDown.h; sourceTree = "<group>"; };
+		6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieDateDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDateDropDown.m; sourceTree = "<group>"; };
+		6CFE295C1CDC42DC004E8C27 /* MSMovieDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDropDown.h; sourceTree = "<group>"; };
+		6CFE295D1CDC42DC004E8C27 /* MSMovieDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDropDown.m; sourceTree = "<group>"; };
+		6CFE295E1CDC42DC004E8C27 /* MSSessionDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSessionDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSSessionDropDown.h; sourceTree = "<group>"; };
+		6CFE295F1CDC42DC004E8C27 /* MSSessionDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSessionDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSSessionDropDown.m; sourceTree = "<group>"; };
+		6CFE29601CDC42DC004E8C27 /* MSTheaterDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSTheaterDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSTheaterDropDown.h; sourceTree = "<group>"; };
+		6CFE29611CDC42DC004E8C27 /* MSTheaterDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSTheaterDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSTheaterDropDown.m; sourceTree = "<group>"; };
+		6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieScheduleTimeCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieScheduleTimeCell.m; sourceTree = "<group>"; };
+		6CFE29691CDC4338004E8C27 /* MSMovieScheduleTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieScheduleTimeCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieScheduleTimeCell.h; sourceTree = "<group>"; };
+		6CFE296C1CDC442A004E8C27 /* UIColor+MSFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+MSFormatter.h"; path = "DHSample/Categories/UIColor+MSFormatter.h"; sourceTree = "<group>"; };
+		6CFE296D1CDC442A004E8C27 /* UIColor+MSFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MSFormatter.m"; path = "DHSample/Categories/UIColor+MSFormatter.m"; sourceTree = "<group>"; };
+		6CFE296F1CDC449D004E8C27 /* UIColor+YDKHexPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+YDKHexPresentation.h"; path = "DHSample/Categories/UIColor+YDKHexPresentation.h"; sourceTree = "<group>"; };
+		6CFE29701CDC449D004E8C27 /* UIColor+YDKHexPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YDKHexPresentation.m"; path = "DHSample/Categories/UIColor+YDKHexPresentation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CFE291A1CDC3272004E8C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFE29331CDC3272004E8C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CFE29141CDC3272004E8C27 = {
+			isa = PBXGroup;
+			children = (
+				6CFE296B1CDC43D9004E8C27 /* Categories */,
+				6CFE29491CDC423E004E8C27 /* Views */,
+				6CFE294A1CDC4246004E8C27 /* ViewControllers */,
+				6CFE291F1CDC3272004E8C27 /* DHSample */,
+				6CFE29391CDC3272004E8C27 /* DHSampleTests */,
+				6CFE291E1CDC3272004E8C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CFE291E1CDC3272004E8C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE291D1CDC3272004E8C27 /* DHSample.app */,
+				6CFE29361CDC3272004E8C27 /* DHSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CFE291F1CDC3272004E8C27 /* DHSample */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE29231CDC3272004E8C27 /* AppDelegate.h */,
+				6CFE29241CDC3272004E8C27 /* AppDelegate.m */,
+				6CFE29261CDC3272004E8C27 /* DHSampleViewController.h */,
+				6CFE29271CDC3272004E8C27 /* DHSampleViewController.m */,
+				6CFE29291CDC3272004E8C27 /* Main.storyboard */,
+				6CFE292C1CDC3272004E8C27 /* Assets.xcassets */,
+				6CFE292E1CDC3272004E8C27 /* LaunchScreen.storyboard */,
+				6CFE29311CDC3272004E8C27 /* Info.plist */,
+				6CFE29201CDC3272004E8C27 /* Supporting Files */,
+			);
+			path = DHSample;
+			sourceTree = "<group>";
+		};
+		6CFE29201CDC3272004E8C27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE29211CDC3272004E8C27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CFE29391CDC3272004E8C27 /* DHSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE293A1CDC3272004E8C27 /* DHSampleTests.m */,
+				6CFE293C1CDC3272004E8C27 /* Info.plist */,
+			);
+			path = DHSampleTests;
+			sourceTree = "<group>";
+		};
+		6CFE29491CDC423E004E8C27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE294B1CDC4289004E8C27 /* MSHeaderView.m */,
+				6CFE294C1CDC4289004E8C27 /* MSHeaderView.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6CFE294A1CDC4246004E8C27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE29511CDC42A4004E8C27 /* MovieBookingViewController */,
+				6CFE294E1CDC429F004E8C27 /* MSBaseViewController.m */,
+				6CFE294F1CDC429F004E8C27 /* MSBaseViewController.h */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CFE29511CDC42A4004E8C27 /* MovieBookingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE29521CDC42BF004E8C27 /* Cells */,
+				6CFE29531CDC42D1004E8C27 /* MSMovieBookingViewController.m */,
+				6CFE29541CDC42D1004E8C27 /* MSMovieBookingViewController.h */,
+			);
+			name = MovieBookingViewController;
+			sourceTree = "<group>";
+		};
+		6CFE29521CDC42BF004E8C27 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */,
+				6CFE29691CDC4338004E8C27 /* MSMovieScheduleTimeCell.h */,
+				6CFE29561CDC42DC004E8C27 /* MSDropDownItemCell.h */,
+				6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */,
+				6CFE29581CDC42DC004E8C27 /* MSDropDownViewCell.h */,
+				6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */,
+				6CFE295A1CDC42DC004E8C27 /* MSMovieDateDropDown.h */,
+				6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDown.m */,
+				6CFE295C1CDC42DC004E8C27 /* MSMovieDropDown.h */,
+				6CFE295D1CDC42DC004E8C27 /* MSMovieDropDown.m */,
+				6CFE295E1CDC42DC004E8C27 /* MSSessionDropDown.h */,
+				6CFE295F1CDC42DC004E8C27 /* MSSessionDropDown.m */,
+				6CFE29601CDC42DC004E8C27 /* MSTheaterDropDown.h */,
+				6CFE29611CDC42DC004E8C27 /* MSTheaterDropDown.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		6CFE296B1CDC43D9004E8C27 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE296F1CDC449D004E8C27 /* UIColor+YDKHexPresentation.h */,
+				6CFE29701CDC449D004E8C27 /* UIColor+YDKHexPresentation.m */,
+				6CFE296C1CDC442A004E8C27 /* UIColor+MSFormatter.h */,
+				6CFE296D1CDC442A004E8C27 /* UIColor+MSFormatter.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CFE291C1CDC3272004E8C27 /* DHSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFE293F1CDC3272004E8C27 /* Build configuration list for PBXNativeTarget "DHSample" */;
+			buildPhases = (
+				6CFE29191CDC3272004E8C27 /* Sources */,
+				6CFE291A1CDC3272004E8C27 /* Frameworks */,
+				6CFE291B1CDC3272004E8C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHSample;
+			productName = DHSample;
+			productReference = 6CFE291D1CDC3272004E8C27 /* DHSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CFE29351CDC3272004E8C27 /* DHSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFE29421CDC3272004E8C27 /* Build configuration list for PBXNativeTarget "DHSampleTests" */;
+			buildPhases = (
+				6CFE29321CDC3272004E8C27 /* Sources */,
+				6CFE29331CDC3272004E8C27 /* Frameworks */,
+				6CFE29341CDC3272004E8C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CFE29381CDC3272004E8C27 /* PBXTargetDependency */,
+			);
+			name = DHSampleTests;
+			productName = DHSampleTests;
+			productReference = 6CFE29361CDC3272004E8C27 /* DHSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CFE29151CDC3272004E8C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Y.CORP.YAHOO.COM\\youngbe";
+				TargetAttributes = {
+					6CFE291C1CDC3272004E8C27 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6CFE29351CDC3272004E8C27 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6CFE291C1CDC3272004E8C27;
+					};
+				};
+			};
+			buildConfigurationList = 6CFE29181CDC3272004E8C27 /* Build configuration list for PBXProject "DHSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CFE29141CDC3272004E8C27;
+			productRefGroup = 6CFE291E1CDC3272004E8C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CFE291C1CDC3272004E8C27 /* DHSample */,
+				6CFE29351CDC3272004E8C27 /* DHSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CFE291B1CDC3272004E8C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFE29301CDC3272004E8C27 /* LaunchScreen.storyboard in Resources */,
+				6CFE292D1CDC3272004E8C27 /* Assets.xcassets in Resources */,
+				6CFE292B1CDC3272004E8C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFE29341CDC3272004E8C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CFE29191CDC3272004E8C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFE296A1CDC4338004E8C27 /* MSMovieScheduleTimeCell.m in Sources */,
+				6CFE29501CDC429F004E8C27 /* MSBaseViewController.m in Sources */,
+				6CFE29711CDC449D004E8C27 /* UIColor+YDKHexPresentation.m in Sources */,
+				6CFE296E1CDC442A004E8C27 /* UIColor+MSFormatter.m in Sources */,
+				6CFE29651CDC42DC004E8C27 /* MSMovieDropDown.m in Sources */,
+				6CFE29641CDC42DC004E8C27 /* MSMovieDateDropDown.m in Sources */,
+				6CFE29551CDC42D1004E8C27 /* MSMovieBookingViewController.m in Sources */,
+				6CFE29671CDC42DC004E8C27 /* MSTheaterDropDown.m in Sources */,
+				6CFE29281CDC3272004E8C27 /* DHSampleViewController.m in Sources */,
+				6CFE29661CDC42DC004E8C27 /* MSSessionDropDown.m in Sources */,
+				6CFE294D1CDC4289004E8C27 /* MSHeaderView.m in Sources */,
+				6CFE29251CDC3272004E8C27 /* AppDelegate.m in Sources */,
+				6CFE29621CDC42DC004E8C27 /* MSDropDownItemCell.m in Sources */,
+				6CFE29221CDC3272004E8C27 /* main.m in Sources */,
+				6CFE29631CDC42DC004E8C27 /* MSDropDownViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFE29321CDC3272004E8C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFE293B1CDC3272004E8C27 /* DHSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CFE29381CDC3272004E8C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CFE291C1CDC3272004E8C27 /* DHSample */;
+			targetProxy = 6CFE29371CDC3272004E8C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CFE29291CDC3272004E8C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFE292A1CDC3272004E8C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CFE292E1CDC3272004E8C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFE292F1CDC3272004E8C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CFE293D1CDC3272004E8C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CFE293E1CDC3272004E8C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CFE29401CDC3272004E8C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.DHSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CFE29411CDC3272004E8C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.DHSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CFE29431CDC3272004E8C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.DHSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHSample.app/DHSample";
+			};
+			name = Debug;
+		};
+		6CFE29441CDC3272004E8C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.DHSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHSample.app/DHSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CFE29181CDC3272004E8C27 /* Build configuration list for PBXProject "DHSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFE293D1CDC3272004E8C27 /* Debug */,
+				6CFE293E1CDC3272004E8C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CFE293F1CDC3272004E8C27 /* Build configuration list for PBXNativeTarget "DHSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFE29401CDC3272004E8C27 /* Debug */,
+				6CFE29411CDC3272004E8C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CFE29421CDC3272004E8C27 /* Build configuration list for PBXNativeTarget "DHSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFE29431CDC3272004E8C27 /* Debug */,
+				6CFE29441CDC3272004E8C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CFE29151CDC3272004E8C27 /* Project object */;
+}
