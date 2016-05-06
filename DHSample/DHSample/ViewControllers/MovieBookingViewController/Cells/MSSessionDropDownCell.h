@@ -1,5 +1,5 @@
 //
-//  MSTheaterDropDown.h
+//  MSSessionDropDown.h
 //  abuMoviesDemo
 //
 //  Created by Young Yang on 5/5/16.
@@ -8,8 +8,8 @@
 
 #import "MSDropDownViewCell.h"
 
-extern NSString* const MSTheaterDropDownIdentifier;
+extern NSString* const MSSessionDropDownIdentifier;
 
-@interface MSTheaterDropDown : MSDropDownViewCell
+@interface MSSessionDropDownCell : MSDropDownViewCell
 
 @end

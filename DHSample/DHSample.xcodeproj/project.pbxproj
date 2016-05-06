@@ -19,10 +19,10 @@
 		6CFE29551CDC42D1004E8C27 /* MSMovieBookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29531CDC42D1004E8C27 /* MSMovieBookingViewController.m */; };
 		6CFE29621CDC42DC004E8C27 /* MSDropDownItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */; };
 		6CFE29631CDC42DC004E8C27 /* MSDropDownViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */; };
-		6CFE29641CDC42DC004E8C27 /* MSMovieDateDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDown.m */; };
-		6CFE29651CDC42DC004E8C27 /* MSMovieDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295D1CDC42DC004E8C27 /* MSMovieDropDown.m */; };
-		6CFE29661CDC42DC004E8C27 /* MSSessionDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295F1CDC42DC004E8C27 /* MSSessionDropDown.m */; };
-		6CFE29671CDC42DC004E8C27 /* MSTheaterDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29611CDC42DC004E8C27 /* MSTheaterDropDown.m */; };
+		6CFE29641CDC42DC004E8C27 /* MSMovieDateDropDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDownCell.m */; };
+		6CFE29651CDC42DC004E8C27 /* MSMovieDropDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295D1CDC42DC004E8C27 /* MSMovieDropDownCell.m */; };
+		6CFE29661CDC42DC004E8C27 /* MSSessionDropDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE295F1CDC42DC004E8C27 /* MSSessionDropDownCell.m */; };
+		6CFE29671CDC42DC004E8C27 /* MSTheaterDropDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29611CDC42DC004E8C27 /* MSTheaterDropDownCell.m */; };
 		6CFE296A1CDC4338004E8C27 /* MSMovieScheduleTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */; };
 		6CFE296E1CDC442A004E8C27 /* UIColor+MSFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE296D1CDC442A004E8C27 /* UIColor+MSFormatter.m */; };
 		6CFE29711CDC449D004E8C27 /* UIColor+YDKHexPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE29701CDC449D004E8C27 /* UIColor+YDKHexPresentation.m */; };
@@ -58,20 +58,20 @@
 		6CFE294F1CDC429F004E8C27 /* MSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSBaseViewController.h; path = DHSample/ViewControllers/MSBaseViewController.h; sourceTree = "<group>"; };
 		6CFE29531CDC42D1004E8C27 /* MSMovieBookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieBookingViewController.m; path = DHSample/ViewControllers/MovieBookingViewController/MSMovieBookingViewController.m; sourceTree = "<group>"; };
 		6CFE29541CDC42D1004E8C27 /* MSMovieBookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieBookingViewController.h; path = DHSample/ViewControllers/MovieBookingViewController/MSMovieBookingViewController.h; sourceTree = "<group>"; };
-		6CFE29561CDC42DC004E8C27 /* MSDropDownItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSDropDownItemCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownItemCell.h; sourceTree = "<group>"; };
-		6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSDropDownItemCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownItemCell.m; sourceTree = "<group>"; };
-		6CFE29581CDC42DC004E8C27 /* MSDropDownViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSDropDownViewCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownViewCell.h; sourceTree = "<group>"; };
-		6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSDropDownViewCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSDropDownViewCell.m; sourceTree = "<group>"; };
-		6CFE295A1CDC42DC004E8C27 /* MSMovieDateDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieDateDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDateDropDown.h; sourceTree = "<group>"; };
-		6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieDateDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDateDropDown.m; sourceTree = "<group>"; };
-		6CFE295C1CDC42DC004E8C27 /* MSMovieDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDropDown.h; sourceTree = "<group>"; };
-		6CFE295D1CDC42DC004E8C27 /* MSMovieDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDropDown.m; sourceTree = "<group>"; };
-		6CFE295E1CDC42DC004E8C27 /* MSSessionDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSessionDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSSessionDropDown.h; sourceTree = "<group>"; };
-		6CFE295F1CDC42DC004E8C27 /* MSSessionDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSessionDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSSessionDropDown.m; sourceTree = "<group>"; };
-		6CFE29601CDC42DC004E8C27 /* MSTheaterDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSTheaterDropDown.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSTheaterDropDown.h; sourceTree = "<group>"; };
-		6CFE29611CDC42DC004E8C27 /* MSTheaterDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSTheaterDropDown.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSTheaterDropDown.m; sourceTree = "<group>"; };
-		6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieScheduleTimeCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieScheduleTimeCell.m; sourceTree = "<group>"; };
-		6CFE29691CDC4338004E8C27 /* MSMovieScheduleTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieScheduleTimeCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieScheduleTimeCell.h; sourceTree = "<group>"; };
+		6CFE29561CDC42DC004E8C27 /* MSDropDownItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDropDownItemCell.h; sourceTree = "<group>"; };
+		6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDropDownItemCell.m; sourceTree = "<group>"; };
+		6CFE29581CDC42DC004E8C27 /* MSDropDownViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDropDownViewCell.h; sourceTree = "<group>"; };
+		6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDropDownViewCell.m; sourceTree = "<group>"; };
+		6CFE295A1CDC42DC004E8C27 /* MSMovieDateDropDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieDateDropDownCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDateDropDownCell.h; sourceTree = "<group>"; };
+		6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieDateDropDownCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDateDropDownCell.m; sourceTree = "<group>"; };
+		6CFE295C1CDC42DC004E8C27 /* MSMovieDropDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMovieDropDownCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDropDownCell.h; sourceTree = "<group>"; };
+		6CFE295D1CDC42DC004E8C27 /* MSMovieDropDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMovieDropDownCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSMovieDropDownCell.m; sourceTree = "<group>"; };
+		6CFE295E1CDC42DC004E8C27 /* MSSessionDropDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSessionDropDownCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSSessionDropDownCell.h; sourceTree = "<group>"; };
+		6CFE295F1CDC42DC004E8C27 /* MSSessionDropDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSessionDropDownCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSSessionDropDownCell.m; sourceTree = "<group>"; };
+		6CFE29601CDC42DC004E8C27 /* MSTheaterDropDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSTheaterDropDownCell.h; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSTheaterDropDownCell.h; sourceTree = "<group>"; };
+		6CFE29611CDC42DC004E8C27 /* MSTheaterDropDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSTheaterDropDownCell.m; path = DHSample/ViewControllers/MovieBookingViewController/Cells/MSTheaterDropDownCell.m; sourceTree = "<group>"; };
+		6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMovieScheduleTimeCell.m; sourceTree = "<group>"; };
+		6CFE29691CDC4338004E8C27 /* MSMovieScheduleTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMovieScheduleTimeCell.h; sourceTree = "<group>"; };
 		6CFE296C1CDC442A004E8C27 /* UIColor+MSFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+MSFormatter.h"; path = "DHSample/Categories/UIColor+MSFormatter.h"; sourceTree = "<group>"; };
 		6CFE296D1CDC442A004E8C27 /* UIColor+MSFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MSFormatter.m"; path = "DHSample/Categories/UIColor+MSFormatter.m"; sourceTree = "<group>"; };
 		6CFE296F1CDC449D004E8C27 /* UIColor+YDKHexPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+YDKHexPresentation.h"; path = "DHSample/Categories/UIColor+YDKHexPresentation.h"; sourceTree = "<group>"; };
@@ -96,9 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C9447371CDC7E2300B35440 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */,
+				6CFE29691CDC4338004E8C27 /* MSMovieScheduleTimeCell.h */,
+				6CFE29561CDC42DC004E8C27 /* MSDropDownItemCell.h */,
+				6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */,
+				6CFE29581CDC42DC004E8C27 /* MSDropDownViewCell.h */,
+				6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */,
+			);
+			name = Cells;
+			path = DHSample/Cells;
+			sourceTree = "<group>";
+		};
 		6CFE29141CDC3272004E8C27 = {
 			isa = PBXGroup;
 			children = (
+				6C9447371CDC7E2300B35440 /* Cells */,
 				6CFE296B1CDC43D9004E8C27 /* Categories */,
 				6CFE29491CDC423E004E8C27 /* Views */,
 				6CFE294A1CDC4246004E8C27 /* ViewControllers */,
@@ -182,20 +197,14 @@
 		6CFE29521CDC42BF004E8C27 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				6CFE29681CDC4338004E8C27 /* MSMovieScheduleTimeCell.m */,
-				6CFE29691CDC4338004E8C27 /* MSMovieScheduleTimeCell.h */,
-				6CFE29561CDC42DC004E8C27 /* MSDropDownItemCell.h */,
-				6CFE29571CDC42DC004E8C27 /* MSDropDownItemCell.m */,
-				6CFE29581CDC42DC004E8C27 /* MSDropDownViewCell.h */,
-				6CFE29591CDC42DC004E8C27 /* MSDropDownViewCell.m */,
-				6CFE295A1CDC42DC004E8C27 /* MSMovieDateDropDown.h */,
-				6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDown.m */,
-				6CFE295C1CDC42DC004E8C27 /* MSMovieDropDown.h */,
-				6CFE295D1CDC42DC004E8C27 /* MSMovieDropDown.m */,
-				6CFE295E1CDC42DC004E8C27 /* MSSessionDropDown.h */,
-				6CFE295F1CDC42DC004E8C27 /* MSSessionDropDown.m */,
-				6CFE29601CDC42DC004E8C27 /* MSTheaterDropDown.h */,
-				6CFE29611CDC42DC004E8C27 /* MSTheaterDropDown.m */,
+				6CFE295A1CDC42DC004E8C27 /* MSMovieDateDropDownCell.h */,
+				6CFE295B1CDC42DC004E8C27 /* MSMovieDateDropDownCell.m */,
+				6CFE295C1CDC42DC004E8C27 /* MSMovieDropDownCell.h */,
+				6CFE295D1CDC42DC004E8C27 /* MSMovieDropDownCell.m */,
+				6CFE295E1CDC42DC004E8C27 /* MSSessionDropDownCell.h */,
+				6CFE295F1CDC42DC004E8C27 /* MSSessionDropDownCell.m */,
+				6CFE29601CDC42DC004E8C27 /* MSTheaterDropDownCell.h */,
+				6CFE29611CDC42DC004E8C27 /* MSTheaterDropDownCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -315,12 +324,12 @@
 				6CFE29501CDC429F004E8C27 /* MSBaseViewController.m in Sources */,
 				6CFE29711CDC449D004E8C27 /* UIColor+YDKHexPresentation.m in Sources */,
 				6CFE296E1CDC442A004E8C27 /* UIColor+MSFormatter.m in Sources */,
-				6CFE29651CDC42DC004E8C27 /* MSMovieDropDown.m in Sources */,
-				6CFE29641CDC42DC004E8C27 /* MSMovieDateDropDown.m in Sources */,
+				6CFE29651CDC42DC004E8C27 /* MSMovieDropDownCell.m in Sources */,
+				6CFE29641CDC42DC004E8C27 /* MSMovieDateDropDownCell.m in Sources */,
 				6CFE29551CDC42D1004E8C27 /* MSMovieBookingViewController.m in Sources */,
-				6CFE29671CDC42DC004E8C27 /* MSTheaterDropDown.m in Sources */,
+				6CFE29671CDC42DC004E8C27 /* MSTheaterDropDownCell.m in Sources */,
 				6CFE29281CDC3272004E8C27 /* DHSampleViewController.m in Sources */,
-				6CFE29661CDC42DC004E8C27 /* MSSessionDropDown.m in Sources */,
+				6CFE29661CDC42DC004E8C27 /* MSSessionDropDownCell.m in Sources */,
 				6CFE294D1CDC4289004E8C27 /* MSHeaderView.m in Sources */,
 				6CFE29251CDC3272004E8C27 /* AppDelegate.m in Sources */,
 				6CFE29621CDC42DC004E8C27 /* MSDropDownItemCell.m in Sources */,

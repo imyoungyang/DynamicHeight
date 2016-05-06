@@ -1,29 +1,28 @@
 //
-//  MSMovieDateDropDown.m
+//  MSSessionDropDown.m
 //  abuMoviesDemo
 //
 //  Created by Young Yang on 5/5/16.
 //  Copyright © 2016 Y.CORP.YAHOO.COM\youngbe. All rights reserved.
 //
 
-#import "MSMovieDateDropDown.h"
 #import "MSMovieScheduleTimeCell.h"
+#import "MSSessionDropDownCell.h"
 
-NSString* const MSMovieDateDropDownIdentifier = @"MSMovieDateDropDown";
+NSString* const MSSessionDropDownIdentifier = @"MSSessionDropDownCell";
 
 static UIEdgeInsets const dropDownSectionInset = { 0.0f, 15.0f, 0.0f, 15.0f };
 static CGFloat const kMinimumInteritemSpacing = 12.0f;
 static CGFloat const kItemSizeHeight = 45.0f;
 
-@implementation MSMovieDateDropDown
+@implementation MSSessionDropDownCell
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         [self registerDropDownItemClass:[MSMovieScheduleTimeCell class] forCellWithReuseIdentifier:MSMovieScheduleTimeCellIdentifier];
-
-        [self dropDownSectionInset:dropDownSectionInset minimumInteritemSpacing:kMinimumInteritemSpacing minimumLineSpacing:kMinimumInteritemSpacing itemSizeHeight:kItemSizeHeight numberOfColumns:2];
+        [self dropDownSectionInset:dropDownSectionInset minimumInteritemSpacing:kMinimumInteritemSpacing minimumLineSpacing:kMinimumInteritemSpacing itemSizeHeight:kItemSizeHeight numberOfColumns:3];
     }
     return self;
 }
@@ -39,16 +38,17 @@ static CGFloat const kItemSizeHeight = 45.0f;
 - (NSInteger)collectionView:(UICollectionView*)collectionView numberOfItemsInSection:(NSInteger)section
 {
     // FIXME
-    return 5;
+    return 20;
 }
 
 - (UICollectionViewCell*)collectionView:(UICollectionView*)collectionView cellForItemAtIndexPath:(NSIndexPath*)indexPath
 {
+    //    UICollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:reusedId forIndexPath:indexPath];
     MSMovieScheduleTimeCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:MSMovieScheduleTimeCellIdentifier forIndexPath:indexPath];
 
     // Configure the cell
     cell.backgroundColor = [UIColor blueColor];
-    cell.timeLabel.text = @"2016/5/1(日)";
+    cell.timeLabel.text = @"15:00";
 
     return cell;
 }

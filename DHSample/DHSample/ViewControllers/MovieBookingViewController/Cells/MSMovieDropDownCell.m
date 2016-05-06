@@ -7,15 +7,15 @@
 //
 
 #import "MSDropDownItemCell.h"
-#import "MSMovieDropDown.h"
+#import "MSMovieDropDownCell.h"
 
-NSString* const MSMovieDropDownIdentifier = @"MSMovieDropDown";
+NSString* const MSMovieDropDownIdentifier = @"MSMovieDropDownCell";
 
 static UIEdgeInsets const dropDownSectionInset = { 0.0f, 15.0f, 0.0f, 15.0f };
 static CGFloat const kMinimumInteritemSpacing = 12.0f;
 static CGFloat const kItemSizeHeight = 45.0f;
 
-@implementation MSMovieDropDown
+@implementation MSMovieDropDownCell
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

@@ -26,9 +26,6 @@ static CGFloat const kWidthOfArrowView = 14.0f;
 static CGFloat const kTrailingOfArrowView = 16.0f;
 static CGFloat const kAnimationDuration = 0.2f;
 
-// collection view
-//static CGFloat const kTopOfCollectionView = 57.5f; // equql to parent item size height
-
 @interface MSDropDownViewCell () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (nonatomic, strong) UILabel* titleView;

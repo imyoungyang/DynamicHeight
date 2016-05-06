@@ -1,5 +1,5 @@
 //
-//  MSMovieDateDropDown.h
+//  MSMovieDropDown.h
 //  abuMoviesDemo
 //
 //  Created by Young Yang on 5/5/16.
@@ -8,8 +8,8 @@
 
 #import "MSDropDownViewCell.h"
 
-extern NSString* const MSMovieDateDropDownIdentifier;
+extern NSString* const MSMovieDropDownIdentifier;
 
-@interface MSMovieDateDropDown : MSDropDownViewCell
+@interface MSMovieDropDownCell : MSDropDownViewCell
 
 @end

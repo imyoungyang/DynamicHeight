@@ -1,28 +1,27 @@
 //
-//  MSSessionDropDown.m
+//  MSTheaterDropDown.m
 //  abuMoviesDemo
 //
 //  Created by Young Yang on 5/5/16.
 //  Copyright © 2016 Y.CORP.YAHOO.COM\youngbe. All rights reserved.
 //
 
-#import "MSMovieScheduleTimeCell.h"
-#import "MSSessionDropDown.h"
+#import "MSDropDownItemCell.h"
+#import "MSTheaterDropDownCell.h"
 
-NSString* const MSSessionDropDownIdentifier = @"MSSessionDropDown";
+NSString* const MSTheaterDropDownIdentifier = @"MSTheaterDropDown";
 
 static UIEdgeInsets const dropDownSectionInset = { 0.0f, 15.0f, 0.0f, 15.0f };
 static CGFloat const kMinimumInteritemSpacing = 12.0f;
 static CGFloat const kItemSizeHeight = 45.0f;
 
-@implementation MSSessionDropDown
+@implementation MSTheaterDropDownCell
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self registerDropDownItemClass:[MSMovieScheduleTimeCell class] forCellWithReuseIdentifier:MSMovieScheduleTimeCellIdentifier];
-        [self dropDownSectionInset:dropDownSectionInset minimumInteritemSpacing:kMinimumInteritemSpacing minimumLineSpacing:kMinimumInteritemSpacing itemSizeHeight:kItemSizeHeight numberOfColumns:3];
+        [self dropDownSectionInset:dropDownSectionInset minimumInteritemSpacing:kMinimumInteritemSpacing minimumLineSpacing:0.0f itemSizeHeight:kItemSizeHeight numberOfColumns:1];
     }
     return self;
 }
@@ -38,17 +37,17 @@ static CGFloat const kItemSizeHeight = 45.0f;
 - (NSInteger)collectionView:(UICollectionView*)collectionView numberOfItemsInSection:(NSInteger)section
 {
     // FIXME
-    return 20;
+    return 30;
 }
 
 - (UICollectionViewCell*)collectionView:(UICollectionView*)collectionView cellForItemAtIndexPath:(NSIndexPath*)indexPath
 {
-    //    UICollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:reusedId forIndexPath:indexPath];
-    MSMovieScheduleTimeCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:MSMovieScheduleTimeCellIdentifier forIndexPath:indexPath];
+    MSDropDownItemCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:MSDropDownItemCellIdentifier forIndexPath:indexPath];
 
     // Configure the cell
     cell.backgroundColor = [UIColor blueColor];
-    cell.timeLabel.text = @"15:00";
+    cell.title = @"《新天堂樂園》25週年數位修復版";
+    cell.hideCheckedIcon = NO;
 
     return cell;
 }

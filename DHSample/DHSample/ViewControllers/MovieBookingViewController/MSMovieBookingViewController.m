@@ -9,10 +9,10 @@
 #import "MSMovieBookingViewController.h"
 
 #import "MSHeaderView.h"
-#import "MSMovieDateDropDown.h"
-#import "MSMovieDropDown.h"
-#import "MSSessionDropDown.h"
-#import "MSTheaterDropDown.h"
+#import "MSMovieDateDropDownCell.h"
+#import "MSMovieDropDownCell.h"
+#import "MSSessionDropDownCell.h"
+#import "MSTheaterDropDownCell.h"
 #import "UIColor+MSFormatter.h"
 //#import "abuMoviesService.h"
 
@@ -89,10 +89,10 @@ static CGFloat const kCornerRadius = 5.0f;
     self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
 
     // register class
-    [self.collectionView registerClass:[MSTheaterDropDown class] forCellWithReuseIdentifier:MSTheaterDropDownIdentifier];
-    [self.collectionView registerClass:[MSMovieDropDown class] forCellWithReuseIdentifier:MSMovieDropDownIdentifier];
-    [self.collectionView registerClass:[MSMovieDateDropDown class] forCellWithReuseIdentifier:MSMovieDateDropDownIdentifier];
-    [self.collectionView registerClass:[MSSessionDropDown class] forCellWithReuseIdentifier:MSSessionDropDownIdentifier];
+    [self.collectionView registerClass:[MSTheaterDropDownCell class] forCellWithReuseIdentifier:MSTheaterDropDownIdentifier];
+    [self.collectionView registerClass:[MSMovieDropDownCell class] forCellWithReuseIdentifier:MSMovieDropDownIdentifier];
+    [self.collectionView registerClass:[MSMovieDateDropDownCell class] forCellWithReuseIdentifier:MSMovieDateDropDownIdentifier];
+    [self.collectionView registerClass:[MSSessionDropDownCell class] forCellWithReuseIdentifier:MSSessionDropDownIdentifier];
 
     //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reusedId];
 
@@ -186,7 +186,7 @@ static CGFloat const kCornerRadius = 5.0f;
 
     switch (indexPath.item) {
     case 0: {
-        MSTheaterDropDown* cell = [collectionView dequeueReusableCellWithReuseIdentifier:MSTheaterDropDownIdentifier forIndexPath:indexPath];
+        MSTheaterDropDownCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:MSTheaterDropDownIdentifier forIndexPath:indexPath];
         cell.inputValue = @"選擇戲院";
         cell.minimumDropDownViewHeight = kItemSizeHeight;
         cell.maximumDropDownViewHeight = self.collectionView.frame.size.height - (kItemSizeHeight + kMinimumInteritemSpacing);
@@ -196,7 +196,7 @@ static CGFloat const kCornerRadius = 5.0f;
         return cell;
     }
     case 1: {
-        MSMovieDropDown* cell = (MSMovieDropDown*)[collectionView dequeueReusableCellWithReuseIdentifier:MSMovieDropDownIdentifier forIndexPath:indexPath];
+        MSMovieDropDownCell* cell = (MSMovieDropDownCell*)[collectionView dequeueReusableCellWithReuseIdentifier:MSMovieDropDownIdentifier forIndexPath:indexPath];
         cell.minimumDropDownViewHeight = kItemSizeHeight;
         cell.maximumDropDownViewHeight = self.collectionView.frame.size.height - (kItemSizeHeight + kMinimumInteritemSpacing) * 2;
         cell.inputValue = @"選擇電影種類";
@@ -206,7 +206,7 @@ static CGFloat const kCornerRadius = 5.0f;
         return cell;
     }
     case 2: {
-        MSMovieDateDropDown* cell = (MSMovieDateDropDown*)[collectionView dequeueReusableCellWithReuseIdentifier:MSMovieDateDropDownIdentifier forIndexPath:indexPath];
+        MSMovieDateDropDownCell* cell = (MSMovieDateDropDownCell*)[collectionView dequeueReusableCellWithReuseIdentifier:MSMovieDateDropDownIdentifier forIndexPath:indexPath];
         cell.minimumDropDownViewHeight = kItemSizeHeight;
         cell.maximumDropDownViewHeight = self.collectionView.frame.size.height - (kItemSizeHeight + kMinimumInteritemSpacing) * 3;
         cell.inputValue = @"選擇日期";
@@ -216,7 +216,7 @@ static CGFloat const kCornerRadius = 5.0f;
         return cell;
     }
     case 3: {
-        MSSessionDropDown* cell = (MSSessionDropDown*)[collectionView dequeueReusableCellWithReuseIdentifier:MSSessionDropDownIdentifier forIndexPath:indexPath];
+        MSSessionDropDownCell* cell = (MSSessionDropDownCell*)[collectionView dequeueReusableCellWithReuseIdentifier:MSSessionDropDownIdentifier forIndexPath:indexPath];
         cell.minimumDropDownViewHeight = kItemSizeHeight;
 
         CGFloat maxHeight = self.collectionView.frame.size.height - (kItemSizeHeight + kMinimumInteritemSpacing) * 4;
